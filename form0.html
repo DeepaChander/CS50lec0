@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+</<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+       input[type=text] {
+         background-color: #F7F7F7;
+       }
+
+       input[type=number] {
+         background-color: #F4F4F4;
+
+     }
+
+     button {
+       width:200px;
+       height: 50px;
+       font-size: 24px;
+       background-color: #23E127;
+     }
+
+     button:hover {
+        background-color: #12FD17;
+     }
+
+     a::before {
+       content: "\21d2 Click Here:";
+     }
+     </style>
+    <title>My First Form</title>
+
+  </head>
+  <body>
+    <form>
+      <div>
+        <ul>
+          <li><a href="http://www.skaianetsystems.com/">skaianetsystems</a></li>
+          <li><a href="http://www.yahoo.com/">Wahyoo</a></li>
+        </ul>
+      </div>
+      <div>
+        <input type="text" name="name" placeholder="name" length = 5 >
+        <input type="password" name="password" placeholder="password">
+      </div>
+
+      <div>
+        favorite color?
+        <input type="radio" name="color" value="red"> red
+        <input type="radio" name="color" value="magenta"> magenta
+        <input type="radio" name="color" value="blue"> blue
+        <input type="radio" name="color" value="purple"> purple
+      </div>
+
+      <div>
+        <input list="country" name="country" placeholder="country">
+        <datalist id="country">
+          <option value= "Afghanistan">
+          <option value= "United States">
+          <option value= "United Kingdom">
+          <option value= "Japan">
+          <option value= "India">
+          <option value= "Antigua & Deps">
+
+        </datalist>
+
+      </div>
+
+
+<div>
+  <input name = "name" type = "text" placeholder = "First Name">
+  <input name = "name" type = "text" placeholder = "Last Name">
+  <input name = "name" type = "number" placeholder = "Age">
+
+</div>
+
+<button>Click me!</button>
+
+    </form>
+
+
+  </body>
+</html>
